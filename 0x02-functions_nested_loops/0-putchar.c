@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /* more headers goes there */
 
 /**
@@ -9,7 +10,7 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar();
 	/* your code goes there */
 	return (0);
 }
