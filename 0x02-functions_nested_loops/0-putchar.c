@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	_putchar();
+	__putchar();
 	/* your code goes there */
 	return (0);
 }

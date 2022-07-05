@@ -1,5 +1,5 @@
 #include <stdio.h>
-void _putchar(void)
+void __putchar(void)
 {
 	putchar('_');
 	putchar('p');
