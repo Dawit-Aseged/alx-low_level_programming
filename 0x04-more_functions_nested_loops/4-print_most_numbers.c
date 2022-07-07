@@ -2,17 +2,18 @@
 #include "main.h"
 
 /**
- * print_numbers - prints the numbers
+ * print_most_numbers - prints the numbers
  * Return: void
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char ch = '0';
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
-		_putchar(ch);
+		if (ch != '2' && ch != '4')
+			_putchar(ch);
 	}
 	_putchar('\n');
 }
