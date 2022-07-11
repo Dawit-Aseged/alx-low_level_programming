@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  * reset_to_98 - resets the value to 98
- * @n - pointer to number to reset
- * Returns - void
- */ 
+ * @n: pointer to number to reset
+ * Return: void
+ */
 
 void reset_to_98(int *n)
 {
